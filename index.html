@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting Bingo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎯 Meeting Bingo</h1>
+        <p class="subtitle">Click squares when you hear the buzzword. Get five in a row to win!</p>
+        <button onclick="newCard()" class="btn-new">🔄 New Card</button>
+        <div id="board" class="board"></div>
+        <div id="status" class="status"></div>
+    </div>
+    <div id="confetti" class="confetti-container"></div>
+
+    <footer>
+        Built by <a href="https://www.handonweb.com">Hand On Web</a> · Chester, UK
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
